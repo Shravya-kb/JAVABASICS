@@ -15,20 +15,20 @@
     
 //}
 
-import java.util.*;
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Enter the number of lines to be printed:" );
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        for(int i=1;i<=n;i++){
-            for(int star=1;star<=n-i+1;star++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-    }
-}
+// import java.util.*;
+// class HelloWorld {
+//     public static void main(String[] args) {
+//         System.out.println("Enter the number of lines to be printed:" );
+//         Scanner sc=new Scanner(System.in);
+//         int n=sc.nextInt();
+//         for(int i=1;i<=n;i++){
+//             for(int star=1;star<=n-i+1;star++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
 
 
 /*
