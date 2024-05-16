@@ -136,31 +136,69 @@ Binomial Coeffient of 2no. is:10
 
 // FIND PRIME NUMBERS WITHIN GIVEN RANGE:
 
-import java.util.*;
-public class JavaBasics{
+// import java.util.*;
+// public class JavaBasics{
 
 
-public static boolean isPrime(int n){
+// public static boolean isPrime(int n){
   
-    if(n==2){
-      return true;
-    }
-    for( int i=2; i<=n-1; i++){
-      if(n%2==0){
-        return false;
-      }
-    }
-    return true;
-}
+//     if(n==2){
+//       return true;
+//     }
+//     for( int i=2; i<=n-1; i++){
+//       if(n%2==0){
+//         return false;
+//       }
+//     }
+//     return true;
+// }
 
-public static void primeInRange(int n){
-  for(int i=2;i<=n-1;i++){
-    if(isPrime(i)){
-    System.out.println(i+" ");
-    }
-  }
-}
-public static void main(String args[]){
-  primeInRange(20);
-}
-}
+// public static void primeInRange(int n){
+//   for(int i=2;i<=n-1;i++){
+//     if(isPrime(i)){
+//     System.out.println(i+" ");
+//     }
+//   }
+// }
+// public static void main(String args[]){
+//   primeInRange(20);
+// }
+// }
+
+/*
+2 
+3 
+5 
+7 
+9 
+11 
+13 
+15 
+17 
+19 
+ */
+
+ //Code to convert Binary Number to Decimal Number:
+
+//  import java.util.*;
+// public class JavaBasics{
+// public static void bintoDec(int binNum){
+//   int myNum = binNum;
+//   int pow=0;
+//   int decNum=0;
+//   while(binNum>0){
+//     int lastDigit = binNum%10;
+//     decNum=decNum+(lastDigit*(int)Math.pow(2,pow));
+//     pow++;
+//     binNum = binNum/10;
+//   }
+//   System.out.println("Decimal of"+myNum+"="+decNum);
+  
+//  }
+// public static void main(String args[]){
+//   bintoDec(100);
+// }
+// }
+
+//OUTPUT:
+//Decimal of100=4
