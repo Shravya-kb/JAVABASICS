@@ -202,3 +202,6 @@ Binomial Coeffient of 2no. is:10
 
 //OUTPUT:
 //Decimal of100=4
+
+import java.util.*;
+public class JavaBas
